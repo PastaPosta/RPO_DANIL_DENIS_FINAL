@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeccd982-1919-486e-8b6b-90cfde111bc7" name="Changes" comment="Added @Autowired to permissionRepository in UserServiceImplementation">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/Implementation/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/Implementation/UserServiceImplementation.java" afterDir="false" />
+    <list default="true" id="aeccd982-1919-486e-8b6b-90cfde111bc7" name="Changes" comment="permission list was not set to user on register">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765954827328</updated>
-      <workItem from="1765954828841" duration="1436000" />
+      <workItem from="1765954828841" duration="2463000" />
     </task>
     <task id="LOCAL-00001" summary="Added a Spring Security implementation to project">
       <option name="closed" value="true" />
@@ -115,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765957256279</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="permission list was not set to user on register">
+      <option name="closed" value="true" />
+      <created>1765957328983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765957328983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +159,7 @@
     <MESSAGE value="Added a Spring Security implementation to project" />
     <MESSAGE value="Removed unused import statements" />
     <MESSAGE value="Added @Autowired to permissionRepository in UserServiceImplementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added @Autowired to permissionRepository in UserServiceImplementation" />
+    <MESSAGE value="permission list was not set to user on register" />
+    <option name="LAST_COMMIT_MESSAGE" value="permission list was not set to user on register" />
   </component>
 </project>
