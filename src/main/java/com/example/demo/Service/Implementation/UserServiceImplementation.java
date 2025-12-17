@@ -41,7 +41,8 @@ public class UserServiceImplementation implements UserDetailsService {
     public boolean registerUser(User user) {
 
         if (Objects.isNull(userRepository.findByUsername(user.getUsername()))) {
-            List< Permission> permissions = List.of(permissionRepository.findByName("ROLE_USER"));
+            List<Permission> permissions = List.of(permissionRepository.findByName("ROLE_USER"));
+            user.setPermissions(permissions);
             user.setPassword(passwordEncoder.encode(user.getPassword()));
             userRepository.save(user);
             return true;
