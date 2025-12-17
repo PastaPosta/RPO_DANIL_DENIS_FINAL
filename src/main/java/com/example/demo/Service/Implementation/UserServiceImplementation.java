@@ -19,6 +19,8 @@ public class UserServiceImplementation implements UserDetailsService {
 
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
     private PermissionRepository permissionRepository;
 
     @Autowired

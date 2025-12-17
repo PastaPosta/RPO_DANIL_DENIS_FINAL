@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeccd982-1919-486e-8b6b-90cfde111bc7" name="Changes" comment="Added a Spring Security implementation to project">
+    <list default="true" id="aeccd982-1919-486e-8b6b-90cfde111bc7" name="Changes" comment="Removed unused import statements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/Implementation/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/Implementation/UserServiceImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765954827328</updated>
-      <workItem from="1765954828841" duration="1354000" />
+      <workItem from="1765954828841" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="Added a Spring Security implementation to project">
       <option name="closed" value="true" />
@@ -102,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765957096894</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed unused import statements">
+      <option name="closed" value="true" />
+      <created>1765957207891</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765957207891</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added a Spring Security implementation to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Spring Security implementation to project" />
+    <MESSAGE value="Removed unused import statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused import statements" />
   </component>
 </project>
