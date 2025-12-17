@@ -1,0 +1,24 @@
+services:
+  backend-services:
+    image: 'prod-backend-iso'
+    container_name: 'backend-container'
+    depends_on:
+      - database-service
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://database-container:5432/main_java
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=123456
+      - SPRING_FLYWAY_LOCATIONS=classpath:db/migration
+      - SPRING_FLYWAY_BASELINE_ON_MIGRATE=true
+    ports:
+      - 8080:8080
+
+  database-service:
+    image: 'postgres'
+    container_name: 'database-container'
+    environment:
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=123456
+    - POSTGRES_DB=main_java
+    ports:
+    - 2345:5432
