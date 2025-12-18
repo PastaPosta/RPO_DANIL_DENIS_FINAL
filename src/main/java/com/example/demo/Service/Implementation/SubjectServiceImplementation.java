@@ -33,7 +33,7 @@ public class SubjectServiceImplementation implements SubjectService {
     }
 
     @Override
-    public void addSubject(SubjectDTO subjectDTO){
+    public SubjectDTO addSubject(SubjectDTO subjectDTO){
         Subject subject = subjectMapper.toEntity(subjectDTO);
 
         if(subjectDTO.getGroupListDto() != null){
@@ -55,6 +55,8 @@ public class SubjectServiceImplementation implements SubjectService {
         }
 
         subjectRepository.save(subject);
+
+        return subjectMapper.toDto(subject);
     }
 
     @Override
