@@ -1,6 +1,5 @@
 package com.example.demo.TestMapper;
 
-import com.example.demo.DTO.GroupDTO;
 import com.example.demo.DTO.SubjectDTO;
 import com.example.demo.Mapper.SubjectMapper;
 import com.example.demo.Model.Group;

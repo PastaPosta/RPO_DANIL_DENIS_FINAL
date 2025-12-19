@@ -1,15 +1,12 @@
 package com.example.demo.TestService;
 
-import com.example.demo.DTO.GroupDTO;
 import com.example.demo.DTO.SubjectDTO;
-import com.example.demo.Model.Subject;
 import com.example.demo.Service.SubjectService;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.annotation.Commit;
 import org.springframework.test.context.ActiveProfiles;
 
 import java.util.ArrayList;
@@ -19,13 +16,19 @@ import java.util.Random;
 @SpringBootTest
 @ActiveProfiles("test")
 @Transactional
-@Commit
 public class TestSubjectService {
 
     @Autowired
     private SubjectService subjectService;
 
     Random random = new Random();
+
+    private TestSubjectService() {
+    }
+
+    public static TestSubjectService createTestSubjectService() {
+        return new TestSubjectService();
+    }
 
     @Test
     void testGetAll() {
