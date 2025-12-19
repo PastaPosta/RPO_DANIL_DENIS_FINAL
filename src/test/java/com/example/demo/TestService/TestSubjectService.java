@@ -22,14 +22,6 @@ public class TestSubjectService {
     private SubjectService subjectService;
 
     Random random = new Random();
-
-    private TestSubjectService() {
-    }
-
-    public static TestSubjectService createTestSubjectService() {
-        return new TestSubjectService();
-    }
-
     @Test
     void testGetAll() {
         List<SubjectDTO> subjects = subjectService.getALlSubjects();
@@ -37,8 +29,7 @@ public class TestSubjectService {
         Assertions.assertNotNull(subjects);
         Assertions.assertNotEquals(0, subjects.size());
 
-        for (int i = 0; i < subjects.size(); i++) {
-            SubjectDTO subject = subjects.get(i);
+        for (SubjectDTO subject : subjects) {
             Assertions.assertNotNull(subject);
             Assertions.assertNotNull(subject.getIdDto());
             Assertions.assertNotNull(subject.getNameDto());

@@ -30,8 +30,7 @@ public class TestGroupService {
         Assertions.assertNotNull(groups);
         Assertions.assertNotEquals(0,groups.size());
 
-        for (int i=0;i<groups.size();i++){
-            GroupDTO groupDto = groups.get(i);
+        for (GroupDTO groupDto : groups) {
             Assertions.assertNotNull(groupDto);
             Assertions.assertNotNull(groupDto.getIdDto());
             Assertions.assertNotNull(groupDto.getNameDto());

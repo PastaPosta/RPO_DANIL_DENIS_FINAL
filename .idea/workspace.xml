@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeccd982-1919-486e-8b6b-90cfde111bc7" name="Changes" comment="Added corresponding Service Interfaces">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="aeccd982-1919-486e-8b6b-90cfde111bc7" name="Changes" comment="idea environment commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/FinalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/FinalApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/FinalApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/FinalApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/TestMapper/TestSubjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/TestMapper/TestSubjectMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/TestService/TestGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/TestService/TestGroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/TestService/TestStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/TestService/TestStudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/TestService/TestSubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/TestService/TestSubjectService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -310,7 +301,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765954827328</updated>
       <workItem from="1765954828841" duration="3122000" />
-      <workItem from="1766153593128" duration="5311000" />
+      <workItem from="1766153593128" duration="5740000" />
     </task>
     <task id="LOCAL-00001" summary="Added a Spring Security implementation to project">
       <option name="closed" value="true" />
@@ -376,7 +367,39 @@
       <option name="project" value="LOCAL" />
       <updated>1765960556335</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created Dockerfile, changed passwords in app properties to correspond to docker-compose">
+      <option name="closed" value="true" />
+      <created>1766164910298</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1766164910298</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Removed unused imports from main class">
+      <option name="closed" value="true" />
+      <created>1766164947834</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1766164947834</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added ActiveProfile(&quot;test&quot;) to main test class. Removed @Commit notation in Tests which caused tests to fail">
+      <option name="closed" value="true" />
+      <created>1766165068222</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1766165068222</updated>
+    </task>
+    <task id="LOCAL-00012" summary="idea environment commit">
+      <option name="closed" value="true" />
+      <created>1766165123827</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1766165123827</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,6 +437,10 @@
     <MESSAGE value="Added corresponding repositories" />
     <MESSAGE value="Added corresponding DTO's" />
     <MESSAGE value="Added corresponding Service Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added corresponding Service Interfaces" />
+    <MESSAGE value="Created Dockerfile, changed passwords in app properties to correspond to docker-compose" />
+    <MESSAGE value="Removed unused imports from main class" />
+    <MESSAGE value="Added ActiveProfile(&quot;test&quot;) to main test class. Removed @Commit notation in Tests which caused tests to fail" />
+    <MESSAGE value="idea environment commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea environment commit" />
   </component>
 </project>
